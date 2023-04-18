@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #e9ecef;
 }
 
 .navbar {
@@ -11,6 +10,7 @@
 
 .navbar-row {
   border-bottom: 4px solid orangered;
+  background-color: #e9ecef;
 }
 
 .nav-collapse {
@@ -64,12 +64,12 @@
   background-color: #f8f9fa;
 }
 
-.nav-menu .active{
+.dr-item .active{
     background-color: orangered;
     color: white;
 }
 
-.nav-menu .active:hover{
+.dr-item .active:hover{
     background-color: orangered;
     color: white;
 }
