@@ -1,0 +1,85 @@
+/* navbar */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e9ecef;
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+.navbar-row {
+  border-bottom: 4px solid orangered;
+}
+
+.nav-collapse {
+  min-width: 700px;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-row {
+    padding: 0px 40px;
+  }
+}
+
+.navbar-toggler {
+  margin-bottom: 20px;
+}
+
+.navbar-logo {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 1150px) {
+  .nav-menu {
+    display: block;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+
+  .navbar-collapse {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+}
+
+.dr-item button {
+  border: none;
+  height: 45px;
+}
+
+.dr-item button:hover {
+  color: orangered;
+  background-color: #f8f9fa;
+}
+
+.nav-menu .active{
+    background-color: orangered;
+    color: white;
+}
+
+.nav-menu .active:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.dropdown-item{
+    background-color: white;
+}
+
+.dropdown-item:hover{
+    background-color: orangered;
+    color: white;
+}
+/* end navbar */
