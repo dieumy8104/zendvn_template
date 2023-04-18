@@ -82,4 +82,8 @@
     background-color: orangered;
     color: white;
 }
+
+.button-active:active{
+    background-color: white!important;
+}
 /* end navbar */
