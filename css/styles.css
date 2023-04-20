@@ -14,9 +14,14 @@
   height: 45px;
   border: none;
 }
+
 .dr-item:hover {
   color: orangered;
   background-color: #f8f9fa;
+}
+
+.navbar-link .dr-item:active{
+    background-color: #f8f9fa;
 }
 
 .navbar-link .active {
@@ -42,13 +47,10 @@
   background-color: orangered;
   color: white;
 }
+
 .nav-menu .navbar-item .navbar-link {
   padding: 0 3px;
   height: 45px;
-}
-
-.navbar-link .button-click:active {
-  background-color: #f8f9fa;
 }
 
 .nav-menu {
