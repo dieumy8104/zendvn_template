@@ -4,86 +4,56 @@
   padding: 0;
 }
 
-.navbar {
-  font-size: 20px;
-}
-
 .navbar-row {
   border-bottom: 4px solid orangered;
   background-color: #e9ecef;
+  min-width: 750px;
 }
 
-.nav-collapse {
-  min-width: 700px;
-}
-
-@media only screen and (max-width: 992px) {
-  .navbar-row {
-    padding: 0px 40px;
-  }
-}
-
-.navbar-toggler {
-  margin-bottom: 20px;
-}
-
-.navbar-logo {
-  font-size: 30px;
-}
-
-@media only screen and (min-width: 1150px) {
-  .nav-menu {
-    display: block;
-  }
-  .navbar-toggler {
-    display: none;
-  }
-
-  .navbar-collapse {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .navbar-toggler {
-    display: block;
-  }
-
-  .nav-menu {
-    display: none;
-  }
-}
-
-.dr-item button {
-  border: none;
+.dr-item {
   height: 45px;
+  border: none;
 }
-
-.dr-item button:hover {
+.dr-item:hover {
   color: orangered;
   background-color: #f8f9fa;
 }
 
-.dr-item .active{
-    background-color: orangered;
-    color: white;
+.navbar-link .active {
+  background-color: orangered;
+  color: white;
 }
 
-.dr-item .active:hover{
-    background-color: orangered;
-    color: white;
+.dr-child {
+  background-color: white;
 }
 
-.dropdown-item{
-    background-color: white;
+.dr-child:hover {
+  background-color: orangered;
+  color: white;
 }
 
-.dropdown-item:hover{
-    background-color: orangered;
-    color: white;
+.navbar-link .active:hover {
+  background-color: orangered;
+  color: white;
 }
 
-.dr-item .button-click:active{
-    background-color: #f8f9fa;
+.navbar-link .active:active {
+  background-color: orangered;
+  color: white;
 }
-/* end navbar */
+.nav-menu .navbar-item .navbar-link {
+  padding: 0 3px;
+  height: 45px;
+}
+
+.navbar-link .button-click:active {
+  background-color: #f8f9fa;
+}
+
+.nav-menu {
+  flex-direction: row;
+  text-align: center;
+}
+
+/* end navar */
