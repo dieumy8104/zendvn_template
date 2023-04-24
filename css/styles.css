@@ -20,8 +20,8 @@
   background-color: #f8f9fa;
 }
 
-.navbar-link .dr-item:active{
-    background-color: #f8f9fa;
+.navbar-link .dr-item:active {
+  background-color: #f8f9fa;
 }
 
 .navbar-link .active {
@@ -60,68 +60,63 @@
 
 /* end navar */
 /* recent */
-* {
-    margin: 0;
-    padding: 0;
+.recent-row {
+  background-color: #e9ecef;
+  min-width: 700px;
+}
+
+.recent-card:hover {
+  box-shadow: 5px 5px 5px 5px #c7c6c8;
+}
+
+.recent-title {
+  justify-content: center;
+}
+
+.recent-btn-group {
+  margin: 0 50px;
+}
+
+.recent-icon {
+  background-color: #f8f9fa;
+}
+
+.recent-icon svg {
+  vertical-align: unset;
+  color: black;
+}
+@media only screen and (min-width: 992px) {
+  .recent-card {
+    width: 31%;
   }
-  
-  .recent-row {
-    background-color: #e9ecef;
-    min-width: 700px;
+
+  .recent-item {
+    display: flex;
   }
-  
-  .recent-card:hover {
-    box-shadow: 5px 5px 5px 5px #c7c6c8;
+  .recent-card:nth-child(1) {
+    margin-left: 2%;
   }
-  
-  .recent-title {
-    justify-content: center;
+
+  .recent-card:nth-child(2) {
+    margin-right: 1.5%;
+    margin-left: 1.5%;
   }
-  
-  .recent-btn-group {
-    margin: 0 50px;
+
+  .recent-card:nth-child(3) {
+    margin-right: 2%;
   }
-  
-  .recent-icon {
-    background-color: #f8f9fa;
+
+  .recent-card {
+    cursor: pointer;
   }
-  
-  .recent-icon svg {
-    vertical-align: unset;
-    color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .recent-card {
+    width: 96%;
+    margin: 0 2% 2% 2%;
+    display: block;
   }
-  @media only screen and (min-width: 992px) {
-    .recent-card {
-      width: 31%;
-    }
-  
-    .recent-item {
-      display: flex;
-    }
-    .recent-card:nth-child(1) {
-      margin-left: 2%;
-    }
-  
-    .recent-card:nth-child(2) {
-      margin-right: 1.5%;
-      margin-left: 1.5%;
-    }
-  
-    .recent-card:nth-child(3) {
-      margin-right: 2%;
-    }
-  
-    .recent-card {
-      cursor: pointer;
-    }
-  }
-  
-  @media only screen and (max-width: 992px) {
-    .recent-card {
-      width: 96%;
-      margin: 0 2% 2% 2%;
-      display: block;
-    }
-  }
-  
-  /* end recent */
+}
+
+/* end recent */
