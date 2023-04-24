@@ -20,8 +20,8 @@
   background-color: #f8f9fa;
 }
 
-.navbar-link .dr-item:active{
-    background-color: #f8f9fa;
+.navbar-link .dr-item:active {
+  background-color: #f8f9fa;
 }
 
 .navbar-link .active {
@@ -59,3 +59,23 @@
 }
 
 /* end navar */
+/* footer */
+.text {
+  margin: 0;
+}
+
+.footer-icon svg {
+  margin-right: 20px;
+  color: orangered;
+}
+
+@media only screen and (min-width: 992px) {
+  .footer-web {
+    display: flex;
+  }
+}
+
+.footer-row {
+  min-width: 670px;
+}
+/* end footer */
