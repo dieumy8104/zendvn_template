@@ -20,8 +20,8 @@
   background-color: #f8f9fa;
 }
 
-.navbar-link .dr-item:active{
-    background-color: #f8f9fa;
+.navbar-link .dr-item:active {
+  background-color: #f8f9fa;
 }
 
 .navbar-link .active {
@@ -59,3 +59,22 @@
 }
 
 /* end navar */
+/* contact */
+.contact-row {
+  background-color: #e9ecef;
+  min-width: 700px;
+}
+
+.brand {
+  justify-content: center;
+}
+
+.brand img {
+  width: 10%;
+  height: 50px;
+}
+
+.brand img:nth-child(n + 2) {
+  margin-left: 2%;
+}
+/* end contact */
