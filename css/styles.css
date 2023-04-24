@@ -60,11 +60,6 @@
 
 /* end navar */
 /* content */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .content-row {
   background-color: #e9ecef;
   min-width: 750px;
