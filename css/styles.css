@@ -1,65 +1,9 @@
-/* navbar */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-row {
-  border-bottom: 4px solid orangered;
-  background-color: #e9ecef;
-  min-width: 750px;
-}
-
-.dr-item {
-  height: 45px;
-  border: none;
-}
-
-.dr-item:hover {
-  color: orangered;
-  background-color: #f8f9fa;
-}
-
-.navbar-link .dr-item:active {
-  background-color: #f8f9fa;
-}
-
-.navbar-link .active {
-  background-color: orangered;
-  color: white;
-}
-
-.dr-child {
-  background-color: white;
-}
-
-.dr-child:hover {
-  background-color: orangered;
-  color: white;
-}
-
-.navbar-link .active:hover {
-  background-color: orangered;
-  color: white;
-}
-
-.navbar-link .active:active {
-  background-color: orangered;
-  color: white;
-}
-
-.nav-menu .navbar-item .navbar-link {
-  padding: 0 3px;
-  height: 45px;
-}
-
-.nav-menu {
-  flex-direction: row;
-  text-align: center;
-}
-
-/* end navar */
 /* footer */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .text {
   margin: 0;
 }
