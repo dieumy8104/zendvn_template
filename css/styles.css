@@ -1,11 +1,16 @@
 /* footer */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .text {
   margin: 0;
+}
+
+.small-text {
+  margin: 0;
+  color: orangered;
 }
 
 .footer-icon svg {
@@ -13,13 +18,50 @@
   color: orangered;
 }
 
-@media only screen and (min-width: 992px) {
+.text-box {
+  height: 80px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 1100px) {
+  .content {
+    width: 100%;
+  }
+
+  .lastest-news {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
   .footer-web {
     display: flex;
+  }
+  .content {
+    width: 33%;
+  }
+
+  .lastest-news {
+    width: 42%;
+  }
+
+  .contact {
+    width: 25%;
   }
 }
 
 .footer-row {
   min-width: 670px;
+}
+
+.footer-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+  margin-right: 10px;
 }
 /* end footer */
