@@ -6,7 +6,7 @@
 
 .contact-row {
   background-color: #e9ecef;
-  min-width: 700px;
+  min-width: 500px;
 }
 
 .brand {
@@ -45,7 +45,7 @@
   .brand {
     display: flex;
   }
-  
+
   .brand img:last-child {
     margin-left: 2%;
   }
