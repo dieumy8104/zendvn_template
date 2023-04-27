@@ -14,11 +14,40 @@
 }
 
 .brand img {
-  width: 10%;
-  height: 50px;
+  height: 45px;
 }
 
-.brand img:nth-child(n + 2) {
+.brand img:nth-child(1) {
+  margin-right: 2%;
+}
+
+.brand img:nth-child(3) {
   margin-left: 2%;
+}
+
+.brand img {
+  width: 16%;
+}
+
+@media only screen and (max-width: 991px) {
+  .brand {
+    display: block;
+    text-align: center;
+  }
+
+  .brand img:last-child {
+    width: 18%;
+    margin: 1% 41%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .brand {
+    display: flex;
+  }
+  
+  .brand img:last-child {
+    margin-left: 2%;
+  }
 }
 /* end contact */
