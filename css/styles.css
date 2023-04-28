@@ -9,8 +9,12 @@
   min-width: 700px;
 }
 
+.recent-card p{
+  margin: 0.5rem 0.25rem;
+}
+
 .recent-card:hover {
-  box-shadow: 5px 5px 5px 5px #c7c6c8;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 6px 6px 0px;
 }
 
 .recent-title {
@@ -23,6 +27,13 @@
 
 .recent-icon {
   background-color: #f8f9fa;
+  flex: 0;
+  height: 35px;
+}
+
+.recent-icon a{
+  flex:none;
+  border: 1px solid #adb5bd;
 }
 
 .recent-icon svg {
@@ -31,23 +42,23 @@
 }
 @media only screen and (min-width: 992px) {
   .recent-card {
-    width: 31%;
+    width: 29%;
   }
 
   .recent-item {
     display: flex;
   }
   .recent-card:nth-child(1) {
-    margin-left: 2%;
+    margin-left: 4%;
   }
 
   .recent-card:nth-child(2) {
-    margin-right: 1.5%;
-    margin-left: 1.5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
   }
 
   .recent-card:nth-child(3) {
-    margin-right: 2%;
+    margin-right: 4%;
   }
 
   .recent-card {
