@@ -9,7 +9,7 @@
   min-width: 700px;
 }
 
-.recent-card p{
+.recent-card p {
   margin: 0.5rem 0.25rem;
 }
 
@@ -21,18 +21,13 @@
   justify-content: center;
 }
 
-.recent-btn-group {
-  margin: 0 50px;
+.recent-btn-group {  
+    margin: 0 25%;
 }
 
 .recent-icon {
-  background-color: #f8f9fa;
-  flex: 0;
   height: 35px;
-}
-
-.recent-icon a{
-  flex:none;
+  background-color: #f8f9fa;
   border: 1px solid #adb5bd;
 }
 
