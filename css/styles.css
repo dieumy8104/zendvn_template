@@ -6,7 +6,7 @@
 
 .recent-row {
   background-color: #e9ecef;
-  min-width: 700px;
+  min-width: 500px;
 }
 
 .recent-card p {
@@ -21,8 +21,13 @@
   justify-content: center;
 }
 
-.recent-btn-group {  
-    margin: 0 25%;
+.recent-btn-group {
+  justify-content: center;
+}
+
+.recent-card .recent-btn-group a {
+  padding: 6px 10px;
+  flex: 0;
 }
 
 .recent-icon {
@@ -40,9 +45,14 @@
     width: 29%;
   }
 
+  .recent-card img {
+    height: 80px;
+  }
+
   .recent-item {
     display: flex;
   }
+
   .recent-card:nth-child(1) {
     margin-left: 4%;
   }
@@ -61,11 +71,15 @@
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .recent-card {
     width: 96%;
     margin: 0 2% 2% 2%;
     display: block;
+  }
+  
+  .recent-card img {
+    height: 140px;
   }
 }
 /* end recent */
