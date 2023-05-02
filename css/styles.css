@@ -70,7 +70,7 @@
 @media only screen and (max-width: 991px) {
   .recent-card {
     width: 96%;
-    margin: 0 2% 2% 2%;
+    margin: 0 2% 2px 2%;
     display: block;
   }
   
