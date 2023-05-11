@@ -1,4 +1,4 @@
-// exercise4
+// slide
 const slideImages = document.getElementsByClassName('carousel-opacity')
 const slides = document.querySelector('.slides')
 const next = document.querySelector('.next')
@@ -13,7 +13,7 @@ function slideWidth(){
 
 slideWidth()
 window.addEventListener('resize', slideWidth)
-slides.style.transform='translateX('+(- width * index)+'px)';
+slides.style.transform = 'translateX('+(- width * index)+'px)';
 // 
 next.addEventListener('click', slideNext)
 function slideNext(){
@@ -32,29 +32,29 @@ function slidePrev(){
 }
 // 
 slides.addEventListener('transitionend', function(){
-    if(slideImages[index].id==='first'){
-slides.style.transition='none'
+    if(slideImages[index].id === 'first'){
+slides.style.transition = 'none'
 index=slideImages.length-index;
-slides.style.transform='translateX(' +(- width * index) + 'px)';
+slides.style.transform = 'translateX(' +(- width * index) + 'px)';
     }
-    if(slideImages[index].id==='last'){
-        slides.style.transition='none'
+    if(slideImages[index].id === 'last'){
+        slides.style.transition = 'none'
         index=slideImages.length - 2;
-        slides.style.transform='translateX(' +(- width * index) + 'px)';
+        slides.style.transform = 'translateX(' +(- width * index) + 'px)';
     }
 })
 // 
 function autoSliding(){
-    deleteInterval=setInterval(timer, 3000)
+    deleteInterval = setInterval(timer, 3000)
     function timer(){
         slideNext()
     }
 }
 autoSliding();
 // 
-const container=document.querySelector('.slide-container')
+const container = document.querySelector('.slide-container')
 container.addEventListener('mouseover', function(){
     clearInterval(deleteInterval)
 })
 container.addEventListener('mouseout',autoSliding)
-// end exercise4
+// end slide
