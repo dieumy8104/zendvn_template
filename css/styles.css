@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.customize {
+.section-fixed-customize {
   transform: rotate(90deg);
   position: fixed;
   right: -25px;
