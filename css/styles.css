@@ -4,89 +4,113 @@
   padding: 0;
 }
 
-.content-row {
+.section-content-row {
   background-color: #e9ecef;
   min-width: 750px;
 }
 
-.button-icon svg {
+.section-content-body {
+  padding: 0;
+  margin-top: 50px;
+}
+
+.section-content-paragraph {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.section-content-button-icon {
+  z-index: 1;
+}
+
+.section-content-button-icon svg {
   color: orangered;
 }
 
+.section-content-dropup-item {
+  margin: 45px 0;
+}
+
 @media only screen and (min-width: 993px) {
-  .drop-up-item {
+  .section-content-dropup-item {
     display: flex;
     margin: 0 7%;
   }
 
-  .drop-up-link {
+  .section-content-dropup-link {
     width: 15%;
   }
 
-  .drop-up-link:nth-child(1) {
+  .section-content-dropup-link:nth-child(1) {
     margin-right: 1%;
   }
 
-  .drop-up-link:nth-child(2) {
+  .section-content-dropup-link:nth-child(2) {
     margin: 0 1%;
   }
 
-  .drop-up-link:nth-child(3) {
+  .section-content-dropup-link:nth-child(3) {
     margin: 0 1%;
   }
 
-  .drop-up-link:nth-child(4) {
+  .section-content-dropup-link:nth-child(4) {
     margin: 0 1%;
   }
 
-  .drop-up-link:nth-child(5) {
+  .section-content-dropup-link:nth-child(5) {
     margin: 0 1%;
   }
 
-  .drop-up-link:nth-child(6) {
+  .section-content-drop-uplink:nth-child(6) {
     margin-left: 1%;
   }
 
-  .button-icon {
+  .section-content-button-icon {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  .drop-up-item {
+  .section-content-dropup-item {
     display: block;
   }
 
-  .drop-up-link {
+  .section-content-dropup-link {
     width: 95%;
     margin: 2% 2.5%;
   }
 
-  .button-icon {
+  .section-content-button-icon {
     width: 100%;
   }
 }
 
-.button-icon {
+.section-content-button-icon {
+  margin: 0;
   border-radius: 2px;
   padding: 10px 0;
   box-shadow: rgba(0, 0, 0, 0.9) 0px 20px 20px -20px;
 }
 
-.button-title {
+.section-content-button-icon hr {
+  width: 100%;
+  margin: 0;
+}
+
+.section-content-button-title {
   padding: 10px 0 0 0;
   font-size: 17px;
   font-weight: bold;
   text-align: center;
 }
 
-.button-detail {
+.section-content-button-detail {
   color: orangered;
   margin: 0;
   padding-top: 10px;
 }
 
-.button-icon:hover {
+.section-content-button-icon:hover {
   background-color: #f8f9fa;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 6px 9px;
 }
