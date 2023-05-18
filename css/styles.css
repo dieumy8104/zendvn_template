@@ -1,124 +1,61 @@
-/* recent */
+/* navbar */
 * {
   margin: 0;
   padding: 0;
 }
 
-.section-recent-row {
+.navbar-row {
+  border-bottom: 4px solid orangered;
   background-color: #e9ecef;
-  min-width: 500px;
+  min-width: 750px;
 }
 
-.section-recent-card {
-  border-radius: 4px;
+.dr-item {
+  height: 45px;
+  border: none;
 }
 
-.section-recent-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 6px 6px 0px;
-}
-
-.section-recent-card p {
-  margin: 0.5rem 0.25rem;
-}
-
-.section-recent-card hr {
-  width: 100%;
-  margin: 0;
-}
-
-.section-recent-card-title {
-  margin: 5px 0;
-  font-weight: bold;
-  font-size: 19px;
-}
-
-.section-recent-title {
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  display: flex;
-}
-
-.section-recent-title h2 {
+.dr-item:hover {
   color: orangered;
-  font-weight: bold;
-  margin: 0;
-  font-size: 30px;
-}
-
-.section-recent-title p {
-  line-height: 45px;
-  margin: 0;
-  opacity: 0.65;
-}
-
-.section-recent-button-group {
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.section-recent-card .section-recent-button-group a {
-  padding: 6px 10px;
-  flex: 0;
-}
-
-.section-recent-icon {
-  height: 35px;
   background-color: #f8f9fa;
-  border: 1px solid #adb5bd;
 }
 
-.section-recent-icon svg {
-  vertical-align: unset;
-  color: black;
+.navbar-link .dr-item:active{
+    background-color: #f8f9fa;
 }
 
-.section-recent-card img {
-  width: 100%;
-  padding: 5px;
+.navbar-link .active {
+  background-color: orangered;
+  color: white;
 }
 
-.section-recent-item {
-  padding: 0;
+.dr-child {
+  background-color: white;
+}
+
+.dr-child:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.navbar-link .active:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.navbar-link .active:active {
+  background-color: orangered;
+  color: white;
+}
+
+.nav-menu .navbar-item .navbar-link {
+  padding: 0 3px;
+  height: 45px;
+}
+
+.nav-menu {
+  flex-direction: row;
   text-align: center;
 }
 
-@media only screen and (min-width: 992px) {
-  .section-recent-card img {
-    height: 80px;
-  }
-
-  .section-recent-item {
-    display: flex;
-  }
-
-  .section-recent-card:nth-child(1) {
-    margin-left: 7%;
-  }
-
-  .section-recent-card:nth-child(2) {
-    margin-right: 2.5%;
-    margin-left: 2.5%;
-  }
-
-  .section-recent-card:nth-child(3) {
-    margin-right: 7%;
-  }
-
-  .section-recent-card {
-    cursor: pointer;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .section-recent-card {
-    width: 96%;
-    margin: 0 2% 2px 2%;
-    display: block;
-  }
-
-  .section-recent-card img {
-    height: 140px;
-  }
-}
-/* end recent */
+/* end navar */
