@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* fixed */
+.section-fixed-customize {
+    transform: rotate(90deg);
+    position: fixed;
+    right: -25px;
+    top: 140px;
+    z-index: 100;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    font-family: serif;
+  }
+  /* end fixed */
