@@ -1,9 +1,9 @@
-/* fixed */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* fixed */
 .section-fixed-customize {
   transform: rotate(90deg);
   position: fixed;
