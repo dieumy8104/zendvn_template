@@ -1,8 +1,8 @@
 // slide
-const slideImages = document.getElementsByClassName('section-slide-carousel-opacity')
-const slides = document.querySelector('.section-slide-banner')
-const next = document.querySelector('.section-slide-next')
-const prev = document.querySelector('.section-slide-prev')
+const slideImages = document.getElementsByClassName('section-slide-container-banner-carousel')
+const slides = document.querySelector('.section-slide-container-banner')
+const next = document.querySelector('.section-slide-container-next')
+const prev = document.querySelector('.section-slide-container-prev')
 
 let index = 1;
 var width;
@@ -38,12 +38,12 @@ function slidePrev() {
 }
 
 slides.addEventListener('transitionend', function() {
-    if (slideImages[index].id === 'section-slide-first') {
+    if (slideImages[index].id === 'section-slide-container-banner-first') {
         slides.style.transition = 'none'
         index = slideImages.length - index;
         slides.style.transform = 'translateX(' + (-width * index) + 'px)';
     }
-    if (slideImages[index].id === 'section-slide-last') {
+    if (slideImages[index].id === 'section-slide-container-banner-last') {
         slides.style.transition = 'none'
         index = slideImages.length - 2;
         slides.style.transform = 'translateX(' + (-width * index) + 'px)';
